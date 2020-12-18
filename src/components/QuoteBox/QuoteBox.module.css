@@ -1,0 +1,66 @@
+.quoteBox {
+   box-sizing: content-box;
+   max-width: 550px;
+   padding: 60px;
+
+   border-radius: 3px;
+   background-color: white;
+}
+
+.quoteText {
+   font-size: 35px;
+   font-weight: 400;
+
+   text-align: center;
+}
+
+.icon {
+   padding-right: 20px;
+}
+
+.quoteAuthor {
+   font-size: 20px;
+   font-weight: 400;
+   font-style: italic;
+
+   display: flex;
+   justify-content: flex-end;
+
+   padding-top: 20px;
+}
+
+.buttons {
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn {
+   height: 38px;
+   margin-top: 30px;
+   padding: 15px 17px 35px 17px;
+
+   cursor: pointer;
+
+   opacity: 1;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   outline: none;
+}
+
+.btn:hover {
+   opacity: .7;
+}
+
+.btnNewQuote {
+   font-size: 1.1em;
+
+   margin-left: auto;
+}
+
+.btnPost {
+   font-size: 25px;
+
+   margin-right: 10px;
+   padding-bottom: 35px;
+}

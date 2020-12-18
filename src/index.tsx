@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {v1} from 'uuid';
+export type QuoteType = {
+   id: string
+   quote: string
+   author: string
+};
 
 ReactDOM.render(
   <React.StrictMode>
