@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {v1} from 'uuid';
 import './App.css';
 import {QuoteBox} from './components/QuoteBox/QuoteBox';
-import {CSSTransition} from 'react-transition-group';
 
 export type QuoteType = {
    id: string
